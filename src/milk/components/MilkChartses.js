@@ -2,7 +2,7 @@
  * Created by liu_k on 2016/1/30.
  */
 import React, { Component } from 'react';
-import {buildConfigForHighCharts} from '../data/MilkData';
+import {buildConfigForHighCharts} from '../data/TransformData';
 import MilkChartsNew from './MilkChartsNew';
 const chartsData = buildConfigForHighCharts();
 //for( let y of chartsData){
