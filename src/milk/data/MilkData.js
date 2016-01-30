@@ -66,7 +66,7 @@ const drinkmilkArray = [
             time: '21:10:00',
             amount: 90
         }]
-    },{
+    }, {
         date: '2016-01-29',
         values: [{
             time: '00:30:00',
@@ -87,7 +87,7 @@ const drinkmilkArray = [
             time: '21:00:00',
             amount: 140
         }]
-    },{
+    }, {
         date: '2016-01-30',
         values: [{
             time: '02:44:00',
@@ -101,6 +101,12 @@ const drinkmilkArray = [
         }, {
             time: '13:14:00',
             amount: 130
+        }, {
+            time: '17:05:00',
+            amount: 130
+        }, {
+            time: '19:30:00',
+            amount: 100
         }]
     }
 
@@ -133,17 +139,120 @@ export function buildChartsData() {
         for (const value of data.values) {
             totalTimes++;
             drinkAmount += value.amount;
-            chartsData.values.push({x: getHour(value.time),y:value.amount});
+            chartsData.values.push({x: getHour(value.time), y: value.amount});
         }
         oneDayData.totalTimes = totalTimes;
         oneDayData.drinkAmount = drinkAmount;
         oneDayData.chartsData = chartsData;
         oneDayData.date = data.date;
         //console.log(data.date + ":" + oneDayData.totalTimes + "," + oneDayData.drinkAmount + "," + JSON.stringify(oneDayData.charsData));
-        allChartsData.push( oneDayData )
+        allChartsData.push(oneDayData)
 
     }
     return allChartsData;
+}
+
+export function buildConfigForHighCharts() {
+    let allChartsData = [];
+    for (const data of drinkmilkArray) {
+
+        let oneDayData = buildOneDayData(data);
+
+        oneDayData = {
+            exporting:{
+                enabled:true
+            },
+            credits: {
+                enabled: false
+            },
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: data.date,
+                //x: -20 //center
+            },
+            subtitle: {
+                text: '<h1>总量 : ' + oneDayData.drinkAmount + 'ml | 总次数 : ' + oneDayData.totalTimes + '次 | 平均 : ' + parseInt(oneDayData.drinkAmount / oneDayData.totalTimes) + 'ml</h1>'
+                //x: -20
+            },
+            xAxis: {
+                categories: ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12',
+                    '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23']
+            },
+            yAxis: {
+                title: {
+                    text: '毫升 (ml)'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                valueSuffix: 'ml',
+                //formatter: function () {
+                //    var point = this.point,
+                //        s = "<b>数量" + ':' + this.y + 'ml</b>' + this.series.extData + this.series.name;
+                //    console.log(this)
+                //
+                //    return s;
+                //}
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+            },
+            series: [{
+                name: '母乳',
+                data: oneDayData.chartsData,
+                //extData:333,
+                //dataLabels: {
+                //    enabled: true,
+                //    //rotation: -90,
+                //    color: '#FFFFFF',
+                //    align: 'right',
+                //    x: 4,
+                //    y: 10,
+                //    style: {
+                //        fontSize: '13px',
+                //        fontFamily: 'Verdana, sans-serif',
+                //        textShadow: '0 0 3px black'
+                //    }
+                //}
+            }]
+        };
+
+
+        allChartsData.push(oneDayData);
+
+    }
+    return allChartsData;
+}
+
+/**
+ * 用于格式化highCharts控件的数据
+ * @param data
+ * @returns {{}}
+ */
+function buildOneDayData(data) {
+    let charts = {};
+    let chartsData = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    let totalTimes = 0;
+    let drinkAmount = 0;
+    for (const value of data.values) {
+        chartsData[parseInt(getHour(value.time))] = value.amount;
+        totalTimes++;
+        drinkAmount += value.amount;
+    }
+    charts.totalTimes = totalTimes;
+    charts.chartsData = chartsData;
+    charts.drinkAmount = drinkAmount;
+
+    return charts;
 }
 
 /**
