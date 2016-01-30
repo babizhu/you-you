@@ -26,6 +26,9 @@
     "babel",
     "react-transform"
   ],
+  "theme": {
+    "primary-color": "#1DA57A"
+  },
   "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
   "license": "CC0-1.0",
   "bugs": {
@@ -51,7 +54,15 @@
     "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
+    "antd": "^0.11.3",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react-d3-components": "^0.6.2",
+    "react-dom": "^0.14.3",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "css-loader": "^0.22.0"
   }
 }
