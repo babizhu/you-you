@@ -108,6 +108,19 @@ export const drinkmilkArray = [
             time: '19:30:00',
             amount: 100
         }]
+    }, {
+        date: '2016-01-31',
+        desc: '晚上直接喂了母乳，无法计量',
+        values: [{
+            time: '07:00:00',
+            amount: 70
+        }, {
+            time: '10:30:00',
+            amount: 130
+        }, {
+            time: '14:40:00',
+            amount: 95
+        }]
     }
 
 ];

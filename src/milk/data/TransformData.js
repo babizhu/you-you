@@ -12,8 +12,8 @@ export function buildConfigForHighCharts() {
         let oneDayData = buildOneDayData(data);
 
         oneDayData = {
-            exporting:{
-                enabled:true
+            exporting: {
+                enabled: true
             },
             credits: {
                 enabled: false
@@ -48,7 +48,7 @@ export function buildConfigForHighCharts() {
                 useHTML: true,
                 headerFormat: '<table>',
                 pointFormat: '<tr><td style="color: {series.color}">{series.name}: </td>' +
-                '<td style="text-align: right"><b>{point.y}</b></td></tr>'+
+                '<td style="text-align: right"><b>{point.y}</b></td></tr>' +
                 '<tr><td style="color: {series.color}">时间: </td>' +
                 '<td style="text-align: right"><b>{point.options.time}</b></td></tr>',
                 footerFormat: '</table>'
@@ -101,12 +101,12 @@ export function buildConfigForHighCharts() {
 function buildOneDayData(data) {
     let charts = {};
     //let chartsData = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-    let chartsData = [{time: '',y: 0},{time: '',y: 0},{time: '',y: 0},{time: '',y: 0},
-        {time: '',y: 0},{time: '',y: 0},{time: '',y: 0},{time: '',y: 0},
-        {time: '',y: 0},{time: '',y: 0},{time: '',y: 0},{time: '',y: 0},
-        {time: '',y: 0},{time: '',y: 0},{time: '',y: 0},{time: '',y: 0},
-        {time: '',y: 0},{time: '',y: 0},{time: '',y: 0},{time: '',y: 0},
-        {time: '',y: 0},{time: '',y: 0},{time: '',y: 0},{time: '',y: 0}];
+    let chartsData = [{time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}];
     let totalTimes = 0;
     let drinkAmount = 0;
     for (const value of data.values) {
