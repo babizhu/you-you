@@ -133,3 +133,87 @@ function getHour(time) {
     }
     return time.substring(0, 2);
 }
+
+/**
+ * 按天统计吃奶的总量
+ */
+export function buildConfigForMilkAmountPerDay() {
+    let categories = [];
+    let chartsDatas = [];
+
+    for (const data of drinkmilkArray) {
+        //categories.push(data.date.substring( 2, data.date.length));
+        categories.push(data.date);
+
+        //let chartsData = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        //let chartsData = [{time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        //    {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        //    {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        //    {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        //    {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0},
+        //    {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}, {time: '', y: 0}];
+        //let totalTimes = 0;
+        //let drinkAmount = 0;
+        let oneDayData = {totalTimes: 0, y: 0, desc: ''};
+        for (const value of data.values) {
+            oneDayData.totalTimes++;
+            oneDayData.y += value.amount;
+        }
+        oneDayData.desc = data.desc;
+        chartsDatas.push(oneDayData);
+
+
+    }
+    console.log(JSON.stringify(chartsDatas));
+    return {
+        title: {
+            text: '每日奶量',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '',
+            x: -20
+        },
+        xAxis: {
+            categories: categories
+        },
+        yAxis: {
+            title: {
+                text: 'ml'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            useHTML: true,
+            headerFormat: '<table>',
+            pointFormat: '<tr><td style="color: {series.color}">母乳: </td>' +
+            '<td style="text-align: right"><b>{point.y}ml</b></td></tr>' +
+            '<tr><td style="color: {series.color}">次数: </td>' +
+            '<td style="text-align: right"><b>{point.options.totalTimes}</b></td></tr>' +
+            '<tr><td style="color: {series.color}">备注: </td>' +
+            '<td style="text-align: right"><b>{point.options.desc}</b></td></tr>',
+            footerFormat: '</table>'
+            //formatter: function () {
+            //    var point = this.point,
+            //        s = "<b>数量" + ':' + this.y + 'ml</b>' + point.options.time;
+            //    console.log(this)
+            //
+            //    return s;
+            //}
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '母乳',
+            data: chartsDatas
+        }]
+    }
+}

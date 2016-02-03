@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import {buildConfigForHighCharts} from '../data/TransformData';
 import MilkChartsNew from './MilkChartsNew';
+import MilkAmountPerDay from './MilkAmountPerDay';
 const chartsData = buildConfigForHighCharts();
 //for( let y of chartsData){
 //    console.log(y.date + ":" + y.totalTimes + "," + y.drinkAmount + "," + JSON.stringify(y.chartsData));
@@ -26,15 +27,16 @@ export default class MilkChartses extends Component {
         return (
 
 
+<div>
+    <div><MilkAmountPerDay /></div>
 
-
-                <div  style={{width:'100%'}}>
+                <div  style={{width:'99%'}}>
                     {
 
                         chartsData.map((item, index) =><div style={{width:'50%',float:index % 2 === 0 ? 'left':'left'}} key={index}><MilkChartsNew config={item} /></div>)
                     }
                 </div>
-
+</div>
 
         )
 

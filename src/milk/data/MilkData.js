@@ -120,6 +120,75 @@ export const drinkmilkArray = [
         }, {
             time: '14:40:00',
             amount: 95
+        }, {
+            time: '16:00:00',
+            amount: 60
+        }, {
+            time: '20:30:00',
+            amount: 150
+        }]
+    }, {
+        date: '2016-02-01',
+        desc: '晚上直接喂了母乳，无法计量',
+        values: [{
+            time: '08:00:00',
+            amount: 60
+        }, {
+            time: '10:00:00',
+            amount: 30
+        }, {
+            time: '14:30:00',
+            amount: 130
+        }, {
+            time: '16:00:00',
+            amount: 90
+        }, {
+            time: '17:00:00',
+            amount: 55
+        }, {
+            time: '17:40:00',
+            amount: 20
+        }, {
+            time: '20:40:00',
+            amount: 130
+        }]
+    }, {
+        date: '2016-02-02',
+        desc: '晚上直接喂了母乳，无法计量',
+        values: [{
+            time: '10:00:00',
+            amount: 50
+        }, {
+            time: '11:00:00',
+            amount: 90
+        }, {
+            time: '14:00:00',
+            amount: 110
+        }, {
+            time: '16:30:00',
+            amount: 90
+        }, {
+            time: '19:30:00',
+            amount: 120
+        }]
+    }, {
+        date: '2016-02-03',
+        desc: '晚上直接喂了母乳，无法计量',
+        values: [{
+            time: '04:00:00',
+            amount: 40
+        }, {
+            time: '11:20:00',
+            amount: 90
+        }, {
+            time: '13:00:00',
+            amount: 80
+        }, {
+            time: '15:30:00',
+            amount: 100
+        }, {
+            time: '19:20:00',
+            amount: 120
         }]
     }
 
