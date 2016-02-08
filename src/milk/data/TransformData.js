@@ -166,6 +166,12 @@ export function buildConfigForMilkAmountPerDay() {
     }
     console.log(JSON.stringify(chartsDatas));
     return {
+        exporting: {
+        enabled: true
+    },
+        credits: {
+            enabled: false
+        },
         title: {
             text: '每日奶量',
             x: -20 //center

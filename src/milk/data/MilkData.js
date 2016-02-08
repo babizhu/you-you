@@ -193,6 +193,125 @@ export const drinkmilkArray = [
             time: '21:45:00',
             amount: 40
         }]
+    }, {
+        date: '2016-02-04',
+        desc: '晚上直接喂了母乳，无法计量',
+        values: [{
+            time: '04:00:00',
+            amount: 50
+        }, {
+            time: '09:00:00',
+            amount: 50
+        }, {
+            time: '10:00:00',
+            amount: 80
+        }, {
+            time: '13:00:00',
+            amount: 110
+        }, {
+            time: '16:00:00',
+            amount: 70
+        }, {
+            time: '17:00:00',
+            amount: 70
+        }, {
+            time: '19:30:00',
+            amount: 120
+        }]
+    }, {
+        date: '2016-02-05',
+        desc: '晚上直接喂了母乳，无法计量，妈第一天上班',
+        values: [{
+            time: '09:00:00',
+            amount: 60
+        }, {
+            time: '10:20:00',
+            amount: 50
+        }, {
+            time: '13:30:00',
+            amount: 90
+        }, {
+            time: '16:40:00',
+            amount: 40
+        }, {
+            time: '18:00:00',
+            amount: 60
+        }, {
+            time: '19:30:00',
+            amount: 30
+        }, {
+            time: '21:00:00',
+            amount: 70
+        }]
+    }, {
+        date: '2016-02-06',
+        desc: '晚上直接喂了母乳，无法计量，妈第二天上班',
+        values: [{
+            time: '10:10:00',
+            amount: 30
+        },{
+            time: '11:10:00',
+            amount: 40
+        },{
+            time: '14:20:00',
+            amount: 40
+        },{
+            time: '16:15:00',
+            amount: 80
+        },{
+            time: '17:30:00',
+            amount: 50
+        },{
+            time: '19:00:00',
+            amount: 90
+        },{
+            time: '20:30:00',
+            amount: 60
+        }]
+    }, {
+        date: '2016-02-07',
+        desc: '晚上直接喂了母乳，无法计量',
+        values: [{
+            time: '09:30:00',
+            amount: 80
+        },{
+            time: '11:30:00',
+            amount: 80
+        },{
+            time: '13:40:00',
+            amount: 70
+        },{
+            time: '17:30:00',
+            amount: 90
+        },{
+            time: '20:00:00',
+            amount: 30
+        },{
+            time: '22:26:00',
+            amount: 100
+        }]
+    }, {
+        date: '2016-02-08',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '02:20:00',
+            amount: 80
+        },{
+            time: '07:10:00',
+            amount: 85
+        },{
+            time: '10:20:00',
+            amount: 80
+        },{
+            time: '13:40:00',
+            amount: 40
+        },{
+            time: '14:16:00',
+            amount: 40
+        },{
+            time: '17:16:00',
+            amount: 110
+        }]
     }
 
 ];

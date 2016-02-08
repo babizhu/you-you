@@ -27,10 +27,10 @@ export default class MilkChartses extends Component {
         return (
 
 
-<div>
+<div   style={{width:'99%'}}>
     <div><MilkAmountPerDay /></div>
 
-                <div  style={{width:'99%'}}>
+                <div>
                     {
 
                         chartsData.map((item, index) =><div style={{width:'50%',float:index % 2 === 0 ? 'left':'left'}} key={index}><MilkChartsNew config={item} /></div>)
