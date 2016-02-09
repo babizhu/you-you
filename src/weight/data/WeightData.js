@@ -7,5 +7,9 @@ export const weightArray = [
     {
         date: '2016-02-03',
         weight: 6.6
-    }
+    },
+    {
+        date: '2016-02-09',
+        weight: 6.7
+    },
 ];
