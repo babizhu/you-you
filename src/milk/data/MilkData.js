@@ -336,6 +336,9 @@ export const drinkmilkArray = [
         },{
             time: '17:00:00',
             amount: 70
+        },{
+            time: '20:20:00',
+            amount: 110
         }]
     }
 
