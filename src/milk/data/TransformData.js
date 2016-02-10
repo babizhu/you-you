@@ -164,7 +164,7 @@ export function buildConfigForMilkAmountPerDay() {
 
 
     }
-    console.log(JSON.stringify(chartsDatas));
+    //console.log(JSON.stringify(chartsDatas));
     return {
         exporting: {
         enabled: true
@@ -185,7 +185,7 @@ export function buildConfigForMilkAmountPerDay() {
         },
         yAxis: {
             title: {
-                text: 'ml'
+                text: '毫升 (ml)'
             },
             plotLines: [{
                 value: 0,

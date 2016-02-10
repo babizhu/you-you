@@ -339,6 +339,28 @@ export const drinkmilkArray = [
         },{
             time: '20:20:00',
             amount: 110
+        },{
+            time: '23:30:00',
+            amount: 80
+        }]
+    }, {
+        date: '2016-02-10',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '03:50:00',
+            amount: 140
+        },{
+            time: '07:30:00',
+            amount: 90
+        },{
+            time: '12:17:00',
+            amount: 105
+        },{
+            time: '15:40:00',
+            amount: 140
+        },{
+            time: '19:20:00',
+            amount: 140
         }]
     }
 
