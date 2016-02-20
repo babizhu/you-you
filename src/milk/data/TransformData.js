@@ -158,7 +158,9 @@ export function buildConfigForMilkAmountPerDay() {
         for (const value of data.values) {
             oneDayData.totalTimes++;
             oneDayData.y += value.amount;
+
         }
+        oneDayData.avg = parseInt(oneDayData.y/oneDayData.totalTimes);
         oneDayData.desc = data.desc;
         chartsDatas.push(oneDayData);
 
@@ -200,6 +202,8 @@ export function buildConfigForMilkAmountPerDay() {
             '<td style="text-align: right"><b>{point.y}ml</b></td></tr>' +
             '<tr><td style="color: {series.color}">次数: </td>' +
             '<td style="text-align: right"><b>{point.options.totalTimes}</b></td></tr>' +
+            '<tr><td style="color: {series.color}">平均: </td>' +
+            '<td style="text-align: right"><b>{point.options.avg}ml</b></td></tr>' +
             '<tr><td style="color: {series.color}">备注: </td>' +
             '<td style="text-align: right"><b>{point.options.desc}</b></td></tr>',
             footerFormat: '</table>'

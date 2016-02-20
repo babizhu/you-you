@@ -362,6 +362,250 @@ export const drinkmilkArray = [
             time: '19:20:00',
             amount: 140
         }]
+    }, {
+        date: '2016-02-11',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '00:20:00',
+            amount: 120
+        },{
+            time: '04:10:00',
+            amount: 110
+        },{
+            time: '08:10:00',
+            amount: 70
+        },{
+            time: '11:40:00',
+            amount: 100
+        },{
+            time: '14:50:00',
+            amount: 70
+        },{
+            time: '15:40:00',
+            amount: 70
+        },{
+            time: '18:40:00',
+            amount: 100
+        },{
+            time: '21:30:00',
+            amount: 110
+        }]
+    }, {
+        date: '2016-02-12',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '00:30:00',
+            amount: 70
+        },{
+            time: '04:40:00',
+            amount: 100
+        },{
+            time: '10:30:00',
+            amount: 80
+        },{
+            time: '11:30:00',
+            amount: 60
+        },{
+            time: '14:50:00',
+            amount: 85
+        },{
+            time: '17:50:00',
+            amount: 40
+        },{
+            time: '19:20:00',
+            amount: 80
+        },{
+            time: '20:20:00',
+            amount: 20
+        }]
+    }, {
+        date: '2016-02-13',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '01:30:00',
+            amount: 110
+        },{
+            time: '04:10:00',
+            amount: 90
+        },{
+            time: '08:00:00',
+            amount: 50
+        },{
+            time: '11:30:00',
+            amount: 50
+        },{
+            time: '13:30:00',
+            amount: 50
+        },{
+            time: '17:13:00',
+            amount: 120
+        },{
+            time: '23:00:00',
+            amount: 120
+        }]
+    }, {
+        date: '2016-02-14',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '03:20:00',
+            amount: 90
+        },{
+            time: '08:00:00',
+            amount: 90
+        },{
+            time: '12:30:00',
+            amount: 120
+        },{
+            time: '16:20:00',
+            amount: 130
+        },{
+            time: '20:00:00',
+            amount: 145
+        }]
+    }, {
+        date: '2016-02-15',
+        desc: '恢复纯奶瓶喂养，打了2针疫苗',
+        values: [{
+            time: '01:30:00',
+            amount: 110
+        },{
+            time: '05:50:00',
+            amount: 80
+        },{
+            time: '09:00:00',
+            amount: 120
+        },{
+            time: '12:20:00',
+            amount: 60
+        },{
+            time: '13:20:00',
+            amount: 70
+        },{
+            time: '16:30:00',
+            amount: 50
+        },{
+            time: '17:50:00',
+            amount: 50
+        },{
+            time: '20:40:00',
+            amount: 110
+        },{
+            time: '23:30:00',
+            amount: 30
+        }]
+    }, {
+        date: '2016-02-16',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '03:20:00',
+            amount: 70
+        },{
+            time: '08:20:00',
+            amount: 120
+        },{
+            time: '12:30:00',
+            amount: 120
+        },{
+            time: '16:30:00',
+            amount: 100
+        },{
+            time: '19:40:00',
+            amount: 100
+        }]
+    }, {
+        date: '2016-02-17',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '00:30:00',
+            amount: 100
+        },{
+            time: '04:05:00',
+            amount: 100
+        },{
+            time: '08:10:00',
+            amount: 90
+        },{
+            time: '12:00:00',
+            amount: 120
+        },{
+            time: '16:15:00',
+            amount: 110
+        },{
+            time: '20:00:00',
+            amount: 100
+        }]
+    }, {
+        date: '2016-02-18',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '00:25:00',
+            amount: 130
+        },{
+            time: '04:00:00',
+            amount: 120
+        },{
+            time: '08:00:00',
+            amount: 70
+        },{
+            time: '11:00:00',
+            amount: 120
+        },{
+            time: '14:00:00',
+            amount: 90
+        },{
+            time: '17:00:00',
+            amount: 100
+        },{
+            time: '20:00:00',
+            amount: 120
+        }]
+    }, {
+        date: '2016-02-19',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '00:20:00',
+            amount: 140
+        },{
+            time: '05:00:00',
+            amount: 120
+        },{
+            time: '09:40:00',
+            amount: 90
+        },{
+            time: '12:45:00',
+            amount: 120
+        },{
+            time: '16:15:00',
+            amount: 130
+        },{
+            time: '19:20:00',
+            amount: 140
+        }]
+    }, {
+        date: '2016-02-20',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '00:05:00',
+            amount: 110
+        },{
+            time: '05:15:00',
+            amount: 140
+        },{
+            time: '09:25:00',
+            amount: 100
+        },{
+            time: '13:20:00',
+            amount: 70
+        },{
+            time: '14:20:00',
+            amount: 70
+        },{
+            time: '17:20:00',
+            amount: 140
+        },{
+            time: '20:30:00',
+            amount: 150
+        }]
     }
 
 ];

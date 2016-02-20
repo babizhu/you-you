@@ -33,7 +33,7 @@ export default class MilkChartses extends Component {
                 <div>
                     {
 
-                        chartsData.map((item, index) =><div style={{width:'50%',float:index % 2 === 0 ? 'left':'left'}} key={index}><MilkChartsNew config={item} /></div>)
+                        chartsData.map((item, index) =><div style={{marginTop:'50px',width:'50%',float:'left'}} key={index}><MilkChartsNew config={item} /></div>)
                     }
                 </div>
 </div>
