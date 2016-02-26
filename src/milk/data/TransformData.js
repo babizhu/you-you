@@ -198,7 +198,9 @@ export function buildConfigForMilkAmountPerDay() {
         tooltip: {
             useHTML: true,
             headerFormat: '<table>',
-            pointFormat: '<tr><td style="color: {series.color}">母乳: </td>' +
+            pointFormat: '<tr><td style="color: {series.color}">日期: </td>' +
+            '<td style="text-align: right"><b>{point.category}</b></td></tr>' +
+            '<tr><td style="color: {series.color}">母乳: </td>' +
             '<td style="text-align: right"><b>{point.y}ml</b></td></tr>' +
             '<tr><td style="color: {series.color}">次数: </td>' +
             '<td style="text-align: right"><b>{point.options.totalTimes}</b></td></tr>' +

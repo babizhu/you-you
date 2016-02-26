@@ -607,6 +607,144 @@ export const drinkmilkArray = [
             amount: 150
         }]
     }
+    , {
+        date: '2016-02-21',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '01:20:00',
+            amount: 100
+        },{
+            time: '07:00:00',
+            amount: 140
+        },{
+            time: '10:40:00',
+            amount: 140
+        },{
+            time: '13:30:00',
+            amount: 150
+        },{
+            time: '16:40:00',
+            amount: 140
+        },{
+            time: '19:40:00',
+            amount: 100
+        }]
+    }
+    , {
+        date: '2016-02-22',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '00:20:00',
+            amount: 50
+        },{
+            time: '01:53:00',
+            amount: 110
+        },{
+            time: '06:10:00',
+            amount: 120
+        },{
+            time: '09:30:00',
+            amount: 130
+        },{
+            time: '12:50:00',
+            amount: 140
+        },{
+            time: '16:20:00',
+            amount: 140
+        },{
+            time: '19:20:00',
+            amount: 110
+        }]
+    }
+    , {
+        date: '2016-02-23',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '03:30:00',
+            amount: 150
+        },{
+            time: '08:10:00',
+            amount: 140
+        },{
+            time: '11:40:00',
+            amount: 140
+        },{
+            time: '15:30:00',
+            amount: 120
+        },{
+            time: '18:30:00',
+            amount: 130
+        },{
+            time: '20:50:00',
+            amount: 90
+        }]
+    },{
+        date: '2016-02-24',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '04:20:00',
+            amount: 115
+        },{
+            time: '08:30:00',
+            amount: 110
+        },{
+            time: '12:20:00',
+            amount: 110
+        },{
+            time: '16:00:00',
+            amount: 120
+        },{
+            time: '19:30:00',
+            amount: 120
+        }]
+    },{
+        date: '2016-02-25',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '01:40:00',
+            amount: 130
+        },{
+            time: '06:40:00',
+            amount: 90
+        },{
+            time: '10:10:00',
+            amount: 70
+        },{
+            time: '12:40:00',
+            amount: 120
+        },{
+            time: '16:00:00',
+            amount: 130
+        },{
+            time: '19:30:00',
+            amount: 140
+        },{
+            time: '22:40:00',
+            amount: 80
+        }]
+    },{
+        date: '2016-02-26',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '05:40:00',
+            amount: 130
+        },{
+            time: '10:00:00',
+            amount: 140
+        },{
+            time: '13:30:00',
+            amount: 70
+        },{
+            time: '16:30:00',
+            amount: 80
+        },{
+            time: '18:35:00',
+            amount: 120
+        },{
+            time: '21:00:00',
+            amount: 50
+        }]
+    }
 
 ];
 //const drinkMilkMap = new Map();

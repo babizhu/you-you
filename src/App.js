@@ -12,7 +12,7 @@ import 'antd/lib/index.css';
 //    console.log(y.date + ":" + y.totalTimes + "," + y.drinkAmount + "," + JSON.stringify(y.chartsData));
 //}
 
-import MilkChartses from './milk/components/MilkChartses';
+import MilkChartses from './milk/components/DayAndNightCharts';
 
 class Counter extends Component {
     constructor(props) {
