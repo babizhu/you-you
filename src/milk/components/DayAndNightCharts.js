@@ -6,7 +6,7 @@ import {buildConfigForHighCharts} from '../data/TransformData';
 import MilkChartsNew from './MilkChartsNew';
 import MilkAmountPerDay from './MilkAmountPerDay';
 import DayAndNight from './DayAndNight';
-const chartsData = buildConfigForHighCharts();
+const chartsData = buildConfigForHighCharts("2016","2");
 //for( let y of chartsData){
 //    console.log(y.date + ":" + y.totalTimes + "," + y.drinkAmount + "," + JSON.stringify(y.chartsData));
 //}

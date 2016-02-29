@@ -5,10 +5,25 @@
 
 import {drinkmilkArray} from './MilkData';
 
-export function buildConfigForHighCharts() {
+export function buildConfigForHighCharts(year, month) {
     let allChartsData = [];
+
+    if( month.length ===1 ){
+
+        month ="0" + month;
+
+    }
+    if (year.length !== 4 || month.length !== 2) {
+        alert("年月格式有误，年必须为4位数字，月份必须为两位数字，不足两位前面补0")
+    }
+    const yearAndMonthStr = year + "-" + month;
     for (const data of drinkmilkArray) {
 
+
+        if (data.date.substr(0, 7) != yearAndMonthStr) {
+            console.log( data.date.substr(0, 7)+"," + yearAndMonthStr)
+            continue;
+        }
         let oneDayData = buildOneDayData(data);
 
         oneDayData = {
@@ -137,11 +152,26 @@ function getHour(time) {
 /**
  * 按天统计吃奶的总量
  */
-export function buildConfigForMilkAmountPerDay() {
+export function buildConfigForMilkAmountPerDay(year, month) {
+    let allChartsData = [];
+
+    if( month.length ===1 ){
+
+        month ="0" + month;
+
+    }
+    if (year.length !== 4 || month.length !== 2) {
+        alert("年月格式有误，年必须为4位数字，月份必须为两位数字，不足两位前面补0")
+    }
+    const yearAndMonthStr = year + "-" + month;
     let categories = [];
     let chartsDatas = [];
 
     for (const data of drinkmilkArray) {
+        if (data.date.substr(0, 7) != yearAndMonthStr) {
+            console.log( data.date.substr(0, 7)+"," + yearAndMonthStr)
+            continue;
+        }
         //categories.push(data.date.substring( 2, data.date.length));
         categories.push(data.date);
 
@@ -160,7 +190,7 @@ export function buildConfigForMilkAmountPerDay() {
             oneDayData.y += value.amount;
 
         }
-        oneDayData.avg = parseInt(oneDayData.y/oneDayData.totalTimes);
+        oneDayData.avg = parseInt(oneDayData.y / oneDayData.totalTimes);
         oneDayData.desc = data.desc;
         chartsDatas.push(oneDayData);
 
@@ -169,13 +199,13 @@ export function buildConfigForMilkAmountPerDay() {
     //console.log(JSON.stringify(chartsDatas));
     return {
         exporting: {
-        enabled: true
-    },
+            enabled: true
+        },
         credits: {
             enabled: false
         },
         title: {
-            text: '每日奶量',
+            text: yearAndMonthStr,
             x: -20 //center
         },
         subtitle: {

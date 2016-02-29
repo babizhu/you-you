@@ -744,6 +744,69 @@ export const drinkmilkArray = [
             time: '21:00:00',
             amount: 50
         }]
+    },{
+        date: '2016-02-27',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '03:00:00',
+            amount: 130
+        },{
+            time: '07:30:00',
+            amount: 60
+        },{
+            time: '10:00:00',
+            amount: 140
+        },{
+            time: '14:30:00',
+            amount: 120
+        },{
+            time: '17:30:00',
+            amount: 110
+        },{
+            time: '23:00:00',
+            amount: 140
+        }]
+    },{
+        date: '2016-02-28',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '04:00:00',
+            amount: 120
+        },{
+            time: '10:00:00',
+            amount: 100
+        },{
+            time: '13:00:00',
+            amount: 120
+        },{
+            time: '16:00:00',
+            amount: 90
+        },{
+            time: '18:20:00',
+            amount: 80
+        },{
+            time: '21:20:00',
+            amount: 110
+        }]
+    },{
+        date: '2016-02-29',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '04:00:00',
+            amount: 140
+        },{
+            time: '09:30:00',
+            amount: 130
+        },{
+            time: '13:00:00',
+            amount: 130
+        },{
+            time: '17:10:00',
+            amount: 160
+        },{
+            time: '21:10:00',
+            amount: 110
+        }]
     }
 
 ];

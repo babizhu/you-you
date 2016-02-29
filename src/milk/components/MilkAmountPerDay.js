@@ -12,17 +12,17 @@ import React, { Component } from 'react';
 
 import ReactHighcharts  from 'react-highcharts/dist/bundle/highcharts';
 import {buildConfigForMilkAmountPerDay} from '../data/TransformData';
-const chartsData = buildConfigForMilkAmountPerDay();
-
 
 export default class MilkAmountPerDay extends Component {
 
     render() {
 
 
-
         return (
-            <ReactHighcharts config={ chartsData } />
+            <div>
+                <ReactHighcharts config={ buildConfigForMilkAmountPerDay("2016","1") }/>
+                <ReactHighcharts config={ buildConfigForMilkAmountPerDay("2016","2") }/>
+            </div>
         );
     }
 }
