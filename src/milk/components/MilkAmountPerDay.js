@@ -22,6 +22,7 @@ export default class MilkAmountPerDay extends Component {
             <div>
                 <ReactHighcharts config={ buildConfigForMilkAmountPerDay("2016","1") }/>
                 <ReactHighcharts config={ buildConfigForMilkAmountPerDay("2016","2") }/>
+                <ReactHighcharts config={ buildConfigForMilkAmountPerDay("2016","3") }/>
             </div>
         );
     }

@@ -249,22 +249,22 @@ export const drinkmilkArray = [
         values: [{
             time: '10:10:00',
             amount: 30
-        },{
+        }, {
             time: '11:10:00',
             amount: 40
-        },{
+        }, {
             time: '14:20:00',
             amount: 40
-        },{
+        }, {
             time: '16:15:00',
             amount: 80
-        },{
+        }, {
             time: '17:30:00',
             amount: 50
-        },{
+        }, {
             time: '19:00:00',
             amount: 90
-        },{
+        }, {
             time: '20:30:00',
             amount: 60
         }]
@@ -274,19 +274,19 @@ export const drinkmilkArray = [
         values: [{
             time: '09:30:00',
             amount: 80
-        },{
+        }, {
             time: '11:30:00',
             amount: 80
-        },{
+        }, {
             time: '13:40:00',
             amount: 70
-        },{
+        }, {
             time: '17:30:00',
             amount: 90
-        },{
+        }, {
             time: '20:00:00',
             amount: 30
-        },{
+        }, {
             time: '22:26:00',
             amount: 100
         }]
@@ -296,22 +296,22 @@ export const drinkmilkArray = [
         values: [{
             time: '02:20:00',
             amount: 80
-        },{
+        }, {
             time: '07:10:00',
             amount: 85
-        },{
+        }, {
             time: '10:20:00',
             amount: 80
-        },{
+        }, {
             time: '13:40:00',
             amount: 40
-        },{
+        }, {
             time: '14:16:00',
             amount: 40
-        },{
+        }, {
             time: '17:16:00',
             amount: 110
-        },{
+        }, {
             time: '20:00:00',
             amount: 80
         }]
@@ -321,25 +321,25 @@ export const drinkmilkArray = [
         values: [{
             time: '01:00:00',
             amount: 110
-        },{
+        }, {
             time: '04:50:00',
             amount: 80
-        },{
+        }, {
             time: '09:20:00',
             amount: 110
-        },{
+        }, {
             time: '13:20:00',
             amount: 80
-        },{
+        }, {
             time: '14:15:00',
             amount: 55
-        },{
+        }, {
             time: '17:00:00',
             amount: 70
-        },{
+        }, {
             time: '20:20:00',
             amount: 110
-        },{
+        }, {
             time: '23:30:00',
             amount: 80
         }]
@@ -349,16 +349,16 @@ export const drinkmilkArray = [
         values: [{
             time: '03:50:00',
             amount: 140
-        },{
+        }, {
             time: '07:30:00',
             amount: 90
-        },{
+        }, {
             time: '12:17:00',
             amount: 105
-        },{
+        }, {
             time: '15:40:00',
             amount: 140
-        },{
+        }, {
             time: '19:20:00',
             amount: 140
         }]
@@ -368,25 +368,25 @@ export const drinkmilkArray = [
         values: [{
             time: '00:20:00',
             amount: 120
-        },{
+        }, {
             time: '04:10:00',
             amount: 110
-        },{
+        }, {
             time: '08:10:00',
             amount: 70
-        },{
+        }, {
             time: '11:40:00',
             amount: 100
-        },{
+        }, {
             time: '14:50:00',
             amount: 70
-        },{
+        }, {
             time: '15:40:00',
             amount: 70
-        },{
+        }, {
             time: '18:40:00',
             amount: 100
-        },{
+        }, {
             time: '21:30:00',
             amount: 110
         }]
@@ -396,25 +396,25 @@ export const drinkmilkArray = [
         values: [{
             time: '00:30:00',
             amount: 70
-        },{
+        }, {
             time: '04:40:00',
             amount: 100
-        },{
+        }, {
             time: '10:30:00',
             amount: 80
-        },{
+        }, {
             time: '11:30:00',
             amount: 60
-        },{
+        }, {
             time: '14:50:00',
             amount: 85
-        },{
+        }, {
             time: '17:50:00',
             amount: 40
-        },{
+        }, {
             time: '19:20:00',
             amount: 80
-        },{
+        }, {
             time: '20:20:00',
             amount: 20
         }]
@@ -424,22 +424,22 @@ export const drinkmilkArray = [
         values: [{
             time: '01:30:00',
             amount: 110
-        },{
+        }, {
             time: '04:10:00',
             amount: 90
-        },{
+        }, {
             time: '08:00:00',
             amount: 50
-        },{
+        }, {
             time: '11:30:00',
             amount: 50
-        },{
+        }, {
             time: '13:30:00',
             amount: 50
-        },{
+        }, {
             time: '17:13:00',
             amount: 120
-        },{
+        }, {
             time: '23:00:00',
             amount: 120
         }]
@@ -449,16 +449,16 @@ export const drinkmilkArray = [
         values: [{
             time: '03:20:00',
             amount: 90
-        },{
+        }, {
             time: '08:00:00',
             amount: 90
-        },{
+        }, {
             time: '12:30:00',
             amount: 120
-        },{
+        }, {
             time: '16:20:00',
             amount: 130
-        },{
+        }, {
             time: '20:00:00',
             amount: 145
         }]
@@ -468,28 +468,28 @@ export const drinkmilkArray = [
         values: [{
             time: '01:30:00',
             amount: 110
-        },{
+        }, {
             time: '05:50:00',
             amount: 80
-        },{
+        }, {
             time: '09:00:00',
             amount: 120
-        },{
+        }, {
             time: '12:20:00',
             amount: 60
-        },{
+        }, {
             time: '13:20:00',
             amount: 70
-        },{
+        }, {
             time: '16:30:00',
             amount: 50
-        },{
+        }, {
             time: '17:50:00',
             amount: 50
-        },{
+        }, {
             time: '20:40:00',
             amount: 110
-        },{
+        }, {
             time: '23:30:00',
             amount: 30
         }]
@@ -499,16 +499,16 @@ export const drinkmilkArray = [
         values: [{
             time: '03:20:00',
             amount: 70
-        },{
+        }, {
             time: '08:20:00',
             amount: 120
-        },{
+        }, {
             time: '12:30:00',
             amount: 120
-        },{
+        }, {
             time: '16:30:00',
             amount: 100
-        },{
+        }, {
             time: '19:40:00',
             amount: 100
         }]
@@ -518,19 +518,19 @@ export const drinkmilkArray = [
         values: [{
             time: '00:30:00',
             amount: 100
-        },{
+        }, {
             time: '04:05:00',
             amount: 100
-        },{
+        }, {
             time: '08:10:00',
             amount: 90
-        },{
+        }, {
             time: '12:00:00',
             amount: 120
-        },{
+        }, {
             time: '16:15:00',
             amount: 110
-        },{
+        }, {
             time: '20:00:00',
             amount: 100
         }]
@@ -540,22 +540,22 @@ export const drinkmilkArray = [
         values: [{
             time: '00:25:00',
             amount: 130
-        },{
+        }, {
             time: '04:00:00',
             amount: 120
-        },{
+        }, {
             time: '08:00:00',
             amount: 70
-        },{
+        }, {
             time: '11:00:00',
             amount: 120
-        },{
+        }, {
             time: '14:00:00',
             amount: 90
-        },{
+        }, {
             time: '17:00:00',
             amount: 100
-        },{
+        }, {
             time: '20:00:00',
             amount: 120
         }]
@@ -565,19 +565,19 @@ export const drinkmilkArray = [
         values: [{
             time: '00:20:00',
             amount: 140
-        },{
+        }, {
             time: '05:00:00',
             amount: 120
-        },{
+        }, {
             time: '09:40:00',
             amount: 90
-        },{
+        }, {
             time: '12:45:00',
             amount: 120
-        },{
+        }, {
             time: '16:15:00',
             amount: 130
-        },{
+        }, {
             time: '19:20:00',
             amount: 140
         }]
@@ -587,22 +587,22 @@ export const drinkmilkArray = [
         values: [{
             time: '00:05:00',
             amount: 110
-        },{
+        }, {
             time: '05:15:00',
             amount: 140
-        },{
+        }, {
             time: '09:25:00',
             amount: 100
-        },{
+        }, {
             time: '13:20:00',
             amount: 70
-        },{
+        }, {
             time: '14:20:00',
             amount: 70
-        },{
+        }, {
             time: '17:20:00',
             amount: 140
-        },{
+        }, {
             time: '20:30:00',
             amount: 150
         }]
@@ -613,19 +613,19 @@ export const drinkmilkArray = [
         values: [{
             time: '01:20:00',
             amount: 100
-        },{
+        }, {
             time: '07:00:00',
             amount: 140
-        },{
+        }, {
             time: '10:40:00',
             amount: 140
-        },{
+        }, {
             time: '13:30:00',
             amount: 150
-        },{
+        }, {
             time: '16:40:00',
             amount: 140
-        },{
+        }, {
             time: '19:40:00',
             amount: 100
         }]
@@ -636,22 +636,22 @@ export const drinkmilkArray = [
         values: [{
             time: '00:20:00',
             amount: 50
-        },{
+        }, {
             time: '01:53:00',
             amount: 110
-        },{
+        }, {
             time: '06:10:00',
             amount: 120
-        },{
+        }, {
             time: '09:30:00',
             amount: 130
-        },{
+        }, {
             time: '12:50:00',
             amount: 140
-        },{
+        }, {
             time: '16:20:00',
             amount: 140
-        },{
+        }, {
             time: '19:20:00',
             amount: 110
         }]
@@ -662,154 +662,278 @@ export const drinkmilkArray = [
         values: [{
             time: '03:30:00',
             amount: 150
-        },{
+        }, {
             time: '08:10:00',
             amount: 140
-        },{
+        }, {
             time: '11:40:00',
             amount: 140
-        },{
+        }, {
             time: '15:30:00',
             amount: 120
-        },{
+        }, {
             time: '18:30:00',
             amount: 130
-        },{
+        }, {
             time: '20:50:00',
             amount: 90
         }]
-    },{
+    }, {
         date: '2016-02-24',
         desc: '恢复纯奶瓶喂养',
         values: [{
             time: '04:20:00',
             amount: 115
-        },{
+        }, {
             time: '08:30:00',
             amount: 110
-        },{
+        }, {
             time: '12:20:00',
             amount: 110
-        },{
+        }, {
             time: '16:00:00',
             amount: 120
-        },{
+        }, {
             time: '19:30:00',
             amount: 120
         }]
-    },{
+    }, {
         date: '2016-02-25',
         desc: '恢复纯奶瓶喂养',
         values: [{
             time: '01:40:00',
             amount: 130
-        },{
+        }, {
             time: '06:40:00',
             amount: 90
-        },{
+        }, {
             time: '10:10:00',
             amount: 70
-        },{
+        }, {
             time: '12:40:00',
             amount: 120
-        },{
+        }, {
             time: '16:00:00',
             amount: 130
-        },{
+        }, {
             time: '19:30:00',
             amount: 140
-        },{
+        }, {
             time: '22:40:00',
             amount: 80
         }]
-    },{
+    }, {
         date: '2016-02-26',
         desc: '恢复纯奶瓶喂养',
         values: [{
             time: '05:40:00',
             amount: 130
-        },{
+        }, {
             time: '10:00:00',
             amount: 140
-        },{
+        }, {
             time: '13:30:00',
             amount: 70
-        },{
+        }, {
             time: '16:30:00',
             amount: 80
-        },{
+        }, {
             time: '18:35:00',
             amount: 120
-        },{
+        }, {
             time: '21:00:00',
             amount: 50
         }]
-    },{
+    }, {
         date: '2016-02-27',
         desc: '恢复纯奶瓶喂养',
         values: [{
             time: '03:00:00',
             amount: 130
-        },{
+        }, {
             time: '07:30:00',
             amount: 60
-        },{
+        }, {
             time: '10:00:00',
             amount: 140
-        },{
+        }, {
             time: '14:30:00',
             amount: 120
-        },{
+        }, {
             time: '17:30:00',
             amount: 110
-        },{
+        }, {
             time: '23:00:00',
             amount: 140
         }]
-    },{
+    }, {
         date: '2016-02-28',
         desc: '恢复纯奶瓶喂养',
         values: [{
             time: '04:00:00',
             amount: 120
-        },{
+        }, {
             time: '10:00:00',
             amount: 100
-        },{
+        }, {
             time: '13:00:00',
             amount: 120
-        },{
+        }, {
             time: '16:00:00',
             amount: 90
-        },{
+        }, {
             time: '18:20:00',
             amount: 80
-        },{
+        }, {
             time: '21:20:00',
             amount: 110
         }]
-    },{
+    }, {
         date: '2016-02-29',
         desc: '恢复纯奶瓶喂养',
         values: [{
             time: '04:00:00',
             amount: 140
-        },{
+        }, {
             time: '09:30:00',
             amount: 130
-        },{
+        }, {
             time: '13:00:00',
             amount: 130
-        },{
+        }, {
             time: '17:10:00',
             amount: 160
-        },{
+        }, {
             time: '21:10:00',
             amount: 110
         }]
+    }, {
+        date: '2016-03-01',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '02:50:00',
+            amount: 110
+        }, {
+            time: '09:20:00',
+            amount: 100
+        }, {
+            time: '12:30:00',
+            amount: 70
+        }, {
+            time: '16:00:00',
+            amount: 130
+        }, {
+            time: '18:30:00',
+            amount: 110
+        }, {
+            time: '22:30:00',
+            amount: 140
+        }]
+    }, {
+        date: '2016-03-02',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '04:20:00',
+            amount: 100
+        }, {
+            time: '08:00:00',
+            amount: 60
+        }, {
+            time: '11:30:00',
+            amount: 160
+        }, {
+            time: '16:00:00',
+            amount: 70
+        }, {
+            time: '17:30:00',
+            amount: 50
+        }, {
+            time: '20:10:00',
+            amount: 140
+        }]
+    }, {
+        date: '2016-03-03',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '02:20:00',
+            amount: 140
+        }, {
+            time: '09:00:00',
+            amount: 140
+        }, {
+            time: '12:00:00',
+            amount: 80
+        }, {
+            time: '15:00:00',
+            amount: 60
+        }, {
+            time: '16:10:00',
+            amount: 90
+        }, {
+            time: '19:20:00',
+            amount: 140
+        }, {
+            time: '23:00:00',
+            amount: 140
+        }]
+    }, {
+        date: '2016-03-04',
+        desc: '恢复纯奶瓶喂养',
+        values: [{
+            time: '02:20:00',
+            amount: 70
+        }, {
+            time: '08:20:00',
+            amount: 90
+        }, {
+            time: '10:15:00',
+            amount: 120
+        }, {
+            time: '13:15:00',
+            amount: 140
+        }, {
+            time: '16:20:00',
+            amount: 140
+        }, {
+            time: '19:30:00',
+            amount: 160
+        }]
+    }, {
+        date: '2016-03-05',
+        desc: '恢复纯奶瓶喂养',
+        values: [
+            {time: '05:10', amount: 140},
+            {time: '08:10', amount: 100},
+            {time: '11:20', amount: 140},
+            {time: '15:10', amount: 100},
+            {time: '18:50', amount: 120},
+            {time: '22:00', amount: 120}]
+    }, {
+        date: '2016-03-06',
+        desc: '恢复纯奶瓶喂养',
+        values: [
+            {time: '04:20', amount: 130},
+            {time: '08:00', amount: 50},
+            {time: '09:35', amount: 90},
+            {time: '11:30', amount: 70},
+            {time: '15:20', amount: 140},
+            {time: '17:20', amount: 140},
+            {time: '21:10', amount: 130}]
+    }, {
+        date: '2016-03-07',
+        desc: '恢复纯奶瓶喂养',
+        values: [
+            {time: '02:15', amount: 90},
+            {time: '08:15', amount: 60},
+            {time: '11:00', amount: 100},
+            {time: '12:30', amount: 80},
+            {time: '15:00', amount: 140},
+            {time: '17:50', amount: 140}]
     }
 
 ];
+
+
 //const drinkMilkMap = new Map();
 
 
