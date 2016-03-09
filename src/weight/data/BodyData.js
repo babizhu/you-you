@@ -24,4 +24,9 @@ export const weightArray = [
         height: 64.5,
         weight: 7.1
     },
+    {
+        date: '2016-03-9',
+        height: 65,
+        weight: 7.4
+    },
 ];
