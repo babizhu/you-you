@@ -24,6 +24,7 @@ const MAX_HOUR = 18;
  */
 function getHour(value) {
     //console.log((value.time.substr(0, 2)))
+    console.log(value)
     return parseInt(value.time.substr(0, 2));
 }
 /**

@@ -1043,7 +1043,7 @@ export const drinkmilkArray = [
     },
 
     {
-        data: '2016-03-17',
+        date: '2016-03-17',
         desc: '注射疫苗',
         values: [{time: '00:30', amount: 100},
             {time: '05:40', amount: 80},
@@ -1055,7 +1055,7 @@ export const drinkmilkArray = [
     },
 
     {
-        data: '2016-03-18',
+        date: '2016-03-18',
         desc: '疫苗第二天',
         values: [
             {time: '01:30', amount: 110},
@@ -1067,7 +1067,7 @@ export const drinkmilkArray = [
             {time: '19:30', amount: 120}]
     },
     {
-        data: '2016-03-19',
+        date: '2016-03-19',
         desc: '',
         values: [
             {time: '05:30', amount: 100},
@@ -1078,7 +1078,7 @@ export const drinkmilkArray = [
             {time: '19:20', amount: 110}]
     },
     {
-        data: '2016-03-20',
+        date: '2016-03-20',
         desc: '',
         values: [
             {time: '01:15', amount: 100},
@@ -1089,7 +1089,7 @@ export const drinkmilkArray = [
             {time: '19:00', amount: 140}]
     },
     {
-        data: '2016-03-21',
+        date: '2016-03-21',
         desc: '',
         values: [
             {time: '04:30', amount: 100},
@@ -1099,7 +1099,7 @@ export const drinkmilkArray = [
             {time: '19:40', amount: 140}]
     },
     {
-        data: '2016-03-22',
+        date: '2016-03-22',
         desc: '',
         values: [
             {time: '00:00', amount: 100},
@@ -1110,7 +1110,7 @@ export const drinkmilkArray = [
             {time: '18:30', amount: 140}]
     },
     {
-        data: '2016-03-23',
+        date: '2016-03-23',
         desc: '',
         values: [
             {time: '01:00', amount: 130},
@@ -1119,7 +1119,7 @@ export const drinkmilkArray = [
             {time: '15:50', amount: 100},
             {time: '17:40', amount: 150},
             {time: '21:30', amount: 100}]
-    },
+    }
 ];
 
 

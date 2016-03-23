@@ -19,7 +19,7 @@ export function buildConfigForHighCharts(year, month) {
     const yearAndMonthStr = year + "-" + month;
     for (const data of drinkmilkArray) {
 
-
+        console.log(data.date)
         if (data.date.substr(0, 7) != yearAndMonthStr) {
             console.log( data.date.substr(0, 7)+"," + yearAndMonthStr)
             continue;
