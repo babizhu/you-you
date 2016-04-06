@@ -1119,7 +1119,166 @@ export const drinkmilkArray = [
             {time: '15:50', amount: 100},
             {time: '17:40', amount: 150},
             {time: '21:30', amount: 100}]
-    }
+    },
+    {
+        date: '2016-03-24',
+        desc: '',
+        values: [{time: '04:20', amount: 130},
+            {time: '08:40', amount: 140},
+            {time: '12:00', amount: 140},
+            {time: '16:30', amount: 110},
+            {time: '18:20', amount: 110},
+            {time: '20:40', amount: 110}]
+    },
+
+
+    {
+        date: '2016-03-25',
+        desc: '',
+        values: [{time: '01:00', amount: 80},
+            {time: '08:00', amount: 130},
+            {time: '10:40', amount: 140},
+            {time: '15:00', amount: 80},
+            {time: '17:20', amount: 160},
+            {time: '20:10', amount: 130}]
+    },
+
+    {
+        date: '2016-03-26',
+        desc: '',
+        values: [
+            {time: '00:05', amount: 150},
+            {time: '06:00', amount: 140},
+            {time: '09:40', amount: 150},
+            {time: '13:40', amount: 140},
+            {time: '17:20', amount: 160},
+            {time: '20:20', amount: 120}]
+    },
+
+    {
+        date: '2016-03-27',
+        desc: '',
+        values: [
+            {time: '00:30', amount: 110},
+            {time: '06:20', amount: 90},
+            {time: '09:50', amount: 150},
+            {time: '15:00', amount: 120},
+            {time: '17:10', amount: 130},
+            {time: '20:00', amount: 90}]
+    },
+    {
+        date: '2016-03-28',
+        desc: '',
+        values: [
+            {time: '00:40', amount: 130},
+            {time: '05:00', amount: 140},
+            {time: '09:30', amount: 140},
+            {time: '12:40', amount: 110},
+            {time: '16:30', amount: 140},
+            {time: '19:50', amount: 140}]
+    },
+
+    {
+        date: '2016-03-29',
+        desc: '',
+        values: [
+            {time: '02:40', amount: 120},
+            {time: '07:00', amount: 140},
+            {time: '11:15', amount: 140},
+            {time: '15:15', amount: 120},
+            {time: '18:30', amount: 140}]
+    },
+
+    {
+        date: '2016-03-30',
+        desc: '',
+        values: [
+            {time: '01:20', amount: 160},
+            {time: '06:20', amount: 120},
+            {time: '10:00', amount: 80},
+            {time: '12:00', amount: 120},
+            {time: '15:30', amount: 60},
+            {time: '18:00', amount: 80},
+            {time: '18:20', amount: 40},
+            {time: '20:30', amount: 100}]
+    },
+
+    {
+        date: '2016-03-31',
+        desc: '',
+        values: [
+            {time: '02:20', amount: 150},
+            {time: '08:20', amount: 160},
+            {time: '11:00', amount: 90},
+            {time: '16:40', amount: 120},
+            {time: '19:30', amount: 160},
+            {time: '23:40', amount: 120}]
+    },
+
+    {
+        date: '2016-04-01',
+        desc: '',
+        values: [
+            {time: '06:40', amount: 140},
+            {time: '10:30', amount: 120},
+            {time: '12:50', amount: 140},
+            {time: '16:20', amount: 140},
+            {time: '19:15', amount: 140}]
+    },
+    {
+        date: '2016-04-02',
+        desc: '',
+        values: [
+            {time: '03:15', amount: 150},
+            {time: '07:30', amount: 120},
+            {time: '11:30', amount: 160},
+            {time: '15:50', amount: 160},
+            {time: '18:10', amount: 60},
+            {time: '19:40', amount: 140}]
+    },
+    {
+        date: '2016-04-03',
+        desc: '',
+        values: [
+            {time: '04:20', amount: 160},
+            {time: '08:00', amount: 130},
+            {time: '11:30', amount: 150},
+            {time: '15:20', amount: 160},
+            {time: '18:00', amount: 90},
+            {time: '19:45', amount: 140}]
+    },
+    {
+        date: '2016-04-04',
+        desc: '',
+        values: [
+            {time: '04:00', amount: 170},
+            {time: '08:10', amount: 160},
+            {time: '11:10', amount: 150},
+            {time: '14:50', amount: 140},
+            {time: '18:10', amount: 130},
+            {time: '20:00', amount: 90}]
+    },
+    {
+        date: '2016-04-05',
+        desc: '',
+        values: [
+            {time: '04:10', amount: 110},
+            {time: '08:20', amount: 120},
+            {time: '11:00', amount: 150},
+            {time: '14:50', amount: 100},
+            {time: '18:00', amount: 110},
+            {time: '19:30', amount: 180}]
+    },
+    {
+        date: '2016-04-06',
+        desc: '',
+        values: [
+            {time: '03:05', amount: 150},
+            {time: '07:40', amount: 160},
+            {time: '11:10', amount: 160},
+            {time: '15:30', amount: 160},
+            {time: '19:20', amount: 190}]
+    },
 ];
 
 
